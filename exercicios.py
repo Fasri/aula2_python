@@ -46,12 +46,16 @@
 # print(f"A media  dos números flutuantes, {numero1}  e {numero2},  é:", media)
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
-base = float(input("Digite a base: "))
-expoente = float(input("Digite o expoente: "))
-potencia = base ** expoente
-print(f"A potência de {base} elevado a {expoente} é:", potencia)
+# base = float(input("Digite a base: "))
+# expoente = float(input("Digite o expoente: "))
+# potencia = base ** expoente
+# print(f"A potência de {base} elevado a {expoente} é:", potencia)
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+celsius = float(input("Digite a temperatura em Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"A temperatura em Fahrenheit é: {fahrenheit}")
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
 # #### Strings (`str`)
