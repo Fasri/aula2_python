@@ -52,11 +52,14 @@
 # print(f"A potência de {base} elevado a {expoente} é:", potencia)
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
-celsius = float(input("Digite a temperatura em Celsius: "))
-fahrenheit = (celsius * 9/5) + 32
-print(f"A temperatura em Fahrenheit é: {fahrenheit}")
+# celsius = float(input("Digite a temperatura em Celsius: "))
+# fahrenheit = (celsius * 9/5) + 32
+# print(f"A temperatura em Fahrenheit é: {fahrenheit}")
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+raio = float(input("Digite o raio do círculo: "))
+area = 3.14159 * (raio ** 2)
+print(f"A área do círculo com raio {raio} é: {area}")
 
 # #### Strings (`str`)
 
