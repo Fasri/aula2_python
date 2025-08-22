@@ -19,12 +19,15 @@
 # print("A mutiplicação dos números é:", produto)
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-numero1 = int(input("Digite o primeiro número:"))
-numero2 = int(input( "Digite o segundo número: "))
-divisão = numero1 / numero2
-print("A divisão dos números é:", divisão)
+# numero1 = int(input("Digite o primeiro número:"))
+# numero2 = int(input( "Digite o segundo número: "))
+# divisão = numero1 / numero2
+# print("A divisão dos números é:", divisão)
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+numero = int(input("Digite um número: "))
+quadrado = numero ** 2
+print("O quadrado do número é:", quadrado)
 
 # #### Números de Ponto Flutuante (`float`)
 
