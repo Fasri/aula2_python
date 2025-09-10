@@ -111,12 +111,17 @@
 
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
-numero1 = int(input("Digite o primeiro número:"))
-numero2 = int(input( "Digite o segundo número"))
-iguais = numero1 == numero2
-print("Os numeros sao iguais?", iguais)
+# numero1 = int(input("Digite o primeiro número:"))
+# numero2 = int(input( "Digite o segundo número"))
+# iguais = numero1 == numero2
+# print("Os numeros sao iguais?", iguais)
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+numero1 = int(input('Digite o primeiro numero: '))
+numero2 = int(input('Digite o segundo numero: '))
+diferentes = numero1 != numero2
+print("Os numeros sao diferentes?", diferentes)
+
 
 # #### try-except e if
 
