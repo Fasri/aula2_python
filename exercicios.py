@@ -79,11 +79,16 @@
 # print("A frase sem espacos: ",frase_sem_espacos)
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-data = input("Digite uma data no formato dd/mm/aaaa:")
-dia, mes, ano = data.split("/")
-print(f"Dia: {dia}, Mes: {mes}, Ano: {ano}")
+# data = input("Digite uma data no formato dd/mm/aaaa:")
+# dia, mes, ano = data.split("/")
+# print(f"Dia: {dia}, Mes: {mes}, Ano: {ano}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+string1 = input("Digite a primeira string: ")
+string2 = input("Digite a segunda string: ")
+juntas = string1 + string2
+print("As strings 1 re 2 juntas sao: ", juntas)
+
 
 # #### Booleanos (`bool`)
 
