@@ -148,28 +148,43 @@
  
 
 # 23: Calculadora Simples
-try:
-    num1 = float(input("Digite o primeiro numero: "))
-    num2 = float(input("Digite o segundo numeor: "))
-    operacao = input("Digite a operacao (+, -, *, /): ")
-    if operacao == "+":
-        resultado = num1 + num2
-    elif operacao == "-":
-        resultado = num1 - num2
-    elif operacao == "*":
-        resultado = num1 * num2
-    elif operacao == "/":
-        if num2 != 0:
-            resultado = num1 / num2
-        else:
-            print("Erro: Divisão por zero não é permitida.")
-            resultado = None
-    else:
-        print("Operação inválida. Por favor, use +, -, * ou /.")
-        resultado = None
+# try:
+#     num1 = float(input("Digite o primeiro numero: "))
+#     num2 = float(input("Digite o segundo numeor: "))
+#     operacao = input("Digite a operacao (+, -, *, /): ")
+#     if operacao == "+":
+#         resultado = num1 + num2
+#     elif operacao == "-":
+#         resultado = num1 - num2
+#     elif operacao == "*":
+#         resultado = num1 * num2
+#     elif operacao == "/":
+#         if num2 != 0:
+#             resultado = num1 / num2
+#         else:
+#             print("Erro: Divisão por zero não é permitida.")
+#             resultado = None
+#     else:
+#         print("Operação inválida. Por favor, use +, -, * ou /.")
+#         resultado = None
 
-except ValueError:
-    print("Entrada inválida. Por favor, insira números válidos.")
-    
+# except ValueError:
+#     print("Entrada inválida. Por favor, insira números válidos.")
+
 # 24: Classificador de Números
+try:
+    numero = float(input("Digite um numero:"))
+    if numero > 0:
+        print("O número é positivo.")
+    elif numero < 0:
+        print("O número é negativo.")
+    else:
+        print("O número é zero.")
+    epar = numero % 2 == 0
+    if epar:
+        print("O número é par.")
+    else:
+        print("O número é ímpar.")
+except ValueError:
+    print("Por favor, insira um valor numérico válido.")
 # 25: Conversão de Tipo com Validação
