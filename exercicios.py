@@ -99,12 +99,17 @@
 # print("O resultado da operacao AND e: ", logica_and)
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-expressao1 = input("Digite a primeira expessao booleana (True/False): ")
-expressao2 = input("Digite a segunda expessao booleana (True/False): ")
-logica_or = expressao1 or expressao2
-print("O resultado da operacao OR e: ", logica_or)
+# expressao1 = input("Digite a primeira expessao booleana (True/False): ")
+# expressao2 = input("Digite a segunda expessao booleana (True/False): ")
+# logica_or = expressao1 or expressao2
+# print("O resultado da operacao OR e: ", logica_or)
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+booleano = input("Digite um valor booleano (True/False): ")
+inverte = not booleano
+print("O valor digitado invertido e: ", inverte)
+
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
