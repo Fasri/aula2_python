@@ -134,19 +134,42 @@
 #     print("Por favor, insira um valor numérico válido para a temperatura.")
 
 # 22: Verificador de Palíndromo
-numero = 23
-pali = "ADA"
-nao_pai= "Casa"
-if isinstance(pali, str) == True: 
-    string_sem_espacos = string.replace(" ", "").lower()
-    if string_sem_espacos == string_sem_espacos[::-1]:
-        print("A string é um palíndromo.")
-    else:
-        print("A string não é um palíndromo.")
-else:
-    print("Por favor, insira uma string válida.")
+# numero = 23
+# pali = "ADA"
+# nao_pai= "Casa"
+# if isinstance(pali, str) == True: 
+#     string_sem_espacos = string.replace(" ", "").lower()
+#     if string_sem_espacos == string_sem_espacos[::-1]:
+#         print("A string é um palíndromo.")
+#     else:
+#         print("A string não é um palíndromo.")
+# else:
+#     print("Por favor, insira uma string válida.")
  
 
 # 23: Calculadora Simples
+try:
+    num1 = float(input("Digite o primeiro numero: "))
+    num2 = float(input("Digite o segundo numeor: "))
+    operacao = input("Digite a operacao (+, -, *, /): ")
+    if operacao == "+":
+        resultado = num1 + num2
+    elif operacao == "-":
+        resultado = num1 - num2
+    elif operacao == "*":
+        resultado = num1 * num2
+    elif operacao == "/":
+        if num2 != 0:
+            resultado = num1 / num2
+        else:
+            print("Erro: Divisão por zero não é permitida.")
+            resultado = None
+    else:
+        print("Operação inválida. Por favor, use +, -, * ou /.")
+        resultado = None
+
+except ValueError:
+    print("Entrada inválida. Por favor, insira números válidos.")
+    
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
