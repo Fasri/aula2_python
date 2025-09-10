@@ -105,12 +105,17 @@
 # print("O resultado da operacao OR e: ", logica_or)
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
-booleano = input("Digite um valor booleano (True/False): ")
-inverte = not booleano
-print("O valor digitado invertido e: ", inverte)
+# booleano = input("Digite um valor booleano (True/False): ")
+# inverte = not booleano
+# print("O valor digitado invertido e: ", inverte)
 
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+numero1 = int(input("Digite o primeiro número:"))
+numero2 = int(input( "Digite o segundo número"))
+iguais = numero1 == numero2
+print("Os numeros sao iguais?", iguais)
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
 # #### try-except e if
